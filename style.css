@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.header-bg{
+background-image: url(images/header-bg.png);
+background-repeat: no-repeat;
+height: 500px;
+background-position: center;
+background-size: cover;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+}
+h1{
+    font-family: lato;
+    font-weight: normal;
+}
+.center_bg{
+    margin-top: 100px;
+}
+h1 span{
+    color: #EC4C7A;
+    font-weight: 800;
+    font-size: 40px;
+}
+.half-width p{
+    margin: 40px 0 40px 0;
+    text-align: justify;
+    color: #707070;
+}
+
+.biography-bg{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.anchor-button{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px;
+    background:linear-gradient(45deg,#EC4F90,#ED4B6F);
+    border-radius: 5px;
+}
+.latest-work-bg{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.latest-work-bg h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 80px;
+    
+}
+.three-to-one{
+    width: 23%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.three-to-one img{
+    width: 100%;
+}
+.footer-bg{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
+.footer-bg h1{
+    font-weight: 700;
+    padding: 10px 0 54px 0;
+}
+.footer-bg h3{
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+.footer-bg h5{
+    color: #929292;
+    font-size: 12px;
+}
+.footer-bg p{
+    line-height: 1.8;
+}
+.mail_box{
+    display: inline-block;
+    width: 250px;
+    background-image: linear-gradient(45deg,#EC5093,#ED4B70);
+    padding: 29px 175px;
+    border-radius: 10px;
+}
+.mail_box p{
+    font-size: 15px;
+    margin-top: -6px;
+    color: white;
+}
+.mail_box a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -40px;
+}
+.para{
+    margin-top: 200px;
+    color: #707070; 
+}
